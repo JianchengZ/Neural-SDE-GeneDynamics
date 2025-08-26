@@ -44,6 +44,12 @@ python Test_on_experimental_data.py --batch_hyper 32
 python Test_on_experimental_data_3dim.py  --batch_hyper 32
 </code></pre>
 <h2 id="citation">Citation</h2>
+    @article{zhang2025reconstructing,
+  title={Reconstructing Noisy Gene Regulation Dynamics Using Extrinsic-Noise-Driven Neural Stochastic Differential Equations},
+  author={Zhang, Jiancheng and Li, Xiangting and Guo, Xiaolu and You, Zhaoyi and B{\"o}ttcher, Lucas and Mogilner, Alex and Hoffman, Alexander and Chou, Tom and Xia, Mingtao},
+  journal={arXiv preprint arXiv:2503.09007},
+  year={2025}
+}
 </div>
 </body>
 
