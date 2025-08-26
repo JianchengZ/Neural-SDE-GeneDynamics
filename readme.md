@@ -16,12 +16,11 @@
 <li>scikit-learn&gt;=1.0.2</li>
 <li>tiktoken&gt;=0.3.3</li>
 <li>tokenizers&gt;=0.11.4</li>
-<li>torch&gt;=2.2.1</li>
+<li>torch&gt;=2.4.1</li>
 <li>torchcde&gt;=0.2.5</li>
 <li>torchdiffeq&gt;=0.2.3</li>
 <li>torchsde&gt;=0.2.6</li>
-<li>torchvision&gt;=0.12.0</li>
-<li>tqdm&gt;=4.62.3</li>
+<li>torchvision&gt;=0.19.1</li>
 <li>transformers&gt;=4.18.0</li>
 </ul>
 <h2 id="training">Training</h2>
