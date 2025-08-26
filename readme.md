@@ -4,10 +4,10 @@
 
 
 <body class="stackedit">
-  <div class="stackedit__html"><h1 id="reconstructing-cellular-signaling-dynamics-using-neural-stochastic-differential-equations">Reconstructing cellular signaling dynamics using neural stochastic differential equations</h1>
+  <div class="stackedit__html"><h1 id="reconstructing-cellular-signaling-dynamics-using-neural-stochastic-differential-equations">Reconstructing noisy gene regulation dynamics using extrinsic-noise-driven neural stochastic differential equations</h1>
 <p>This is the official repository for the paper.</p>
 <h2 id="dataset">Dataset</h2>
-<p>Datasets are from xxx and xxx. They can be downloaded from zzz and zzz.</p>
+<p>Datasets can be downloaded from zzz and zzz.</p>
 <h2 id="requirments">Requirments</h2>
 <ul>
 <li>numpy&gt;=1.22.4</li>
