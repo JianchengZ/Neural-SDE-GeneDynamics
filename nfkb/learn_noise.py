@@ -240,14 +240,14 @@ testing_data = testing_data[:, ::int((global_dict[f'{args.t_size}'])/5)]
 knnidx = [i for i in range(1054)]
 testing_data = torch.tensor(testing_data)
 def cosine_similarity2(vec1, vec2):
-    # 计算点积
+
     dot_product = torch.sum(vec1 * vec2, dim=-1)
 
-    # 计算向量的范数 (欧几里得范数)
+  
     norm_vec1 = torch.norm(vec1, p=2, dim=-1)
     norm_vec2 = torch.norm(vec2, p=2, dim=-1)
 
-    # 防止除以0
+
     eps = 1e-8
     cosine_sim = dot_product / (norm_vec1 * norm_vec2 + eps)
 
@@ -304,6 +304,7 @@ torch.save(res, 'results/repeat%d/en_de_temp%d/res%d_%d.pt'%(repeat,batch_hyper,
 
 endtime=time.time()
 print('Running Time is: ',(endtime-starttime))
+
 
 
 
