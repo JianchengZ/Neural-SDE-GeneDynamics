@@ -293,11 +293,6 @@ randomindex =[53, 27, 79, 55, 42, 44, 12, 60, 26, 8, 89, 52, 38, 88, 119, 51, 13
 
 
 
-"""
-
-randomindex控制随机选取噪声组
-
-"""
 print(epoch)
 for D in tqdm(range(121)):
     #Load data
@@ -388,3 +383,4 @@ np.save(r'three_dim/repeat%d/en_de_temp%d/noiseidx%d.npy'%(repeat,batch_hyper,ba
 np.save(r'three_dim/repeat%d/en_de_temp%d/IDX%d.npy'%(repeat,batch_hyper,batch_hyper),np.array(IDX))
 endtime=time.time()
 print('Running Time is: ',(endtime-starttime))
+
