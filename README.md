@@ -10,18 +10,18 @@
 <p>Datasets can be downloaded from https://drive.google.com/file/d/1TiAKLc78ibClgA0t8vmmVUHR0NE8d4Au/view?usp=sharing and zzz.</p>
 <h2 id="requirments">Requirments</h2>
 <ul>
-<li>numpy&gt;=1.22.4</li>
+<!-- <li>numpy&gt;=1.22.4</li>
 <li>pandas&gt;=1.3.5</li>
 <li>pytorch-transformers&gt;=1.2.0</li>
 <li>scikit-learn&gt;=1.0.2</li>
 <li>tiktoken&gt;=0.3.3</li>
 <li>tokenizers&gt;=0.11.4</li>
-<li>torch&gt;=2.4.1</li>
+<li>torch&gt;=2.4.1</li> -->
 <li>torchcde&gt;=0.2.5</li>
 <li>torchdiffeq&gt;=0.2.3</li>
 <li>torchsde&gt;=0.2.6</li>
 <li>torchvision&gt;=0.19.1</li>
-<li>transformers&gt;=4.18.0</li>
+<!-- <li>transformers&gt;=4.18.0</li> -->
 </ul>
 <h2 id="training">Training</h2>
 <p>For Circadian examples:</p>
