@@ -1,44 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec  1 23:27:26 2023
-
-@author: 12147
-"""
-
-# -*- coding: utf-8 -*-
 import numpy
 
-"""
-Created on Sat Nov  4 22:32:02 2023
 
-@author: 12147
-"""
 
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov  4 21:15:22 2023
-
-@author: 12147
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov  4 12:31:48 2023
-
-@author: 12147
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov  4 00:35:03 2023
-
-@author: 12147
-"""
-
-# -*- coding: utf-8 -*-
 import sys
 
-# 设置新的递归深度限制
+
 sys.setrecursionlimit(1500)
 
 import torch
@@ -453,4 +419,5 @@ if __name__ == '__main__':
                                   noise_type=noise_type_list[k],k1=0.1+0.1*i,k2=0.05*j)
                 # exit()
     endtime=time.time()
+
     print('Totol time: ',(endtime-starttime))
